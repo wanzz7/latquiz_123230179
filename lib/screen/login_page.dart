@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-// Pastikan path import ini sesuai dengan struktur folder Anda
 import 'package:latihan_kuis_a/screen/moviel_list_page.dart'; 
 
 class LoginPage extends StatefulWidget {
