@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:latihan_kuis_a/screen/login_page.dart'; // Sesuaikan dengan nama project Anda
 
 void main() {
   runApp(const MainApp());
@@ -10,11 +11,8 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
+      debugShowCheckedModeBanner: false,
+      home: LoginPage(), // Memanggil halaman login
     );
   }
 }
