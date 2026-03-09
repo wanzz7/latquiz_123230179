@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:latihan_kuis_a/screen/login_page.dart'; // Sesuaikan dengan nama project Anda
+import 'package:latihan_kuis_a/screen/login_page.dart';
 
 void main() {
   runApp(const MainApp());
