@@ -112,7 +112,7 @@ class MovieDetailPage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Header Poster dengan Tombol Back
+            // Header Poster
             Stack(
               children: [
                 Image.asset(
